@@ -42,7 +42,7 @@ function App() {
 	Maintain a compassionate and understanding tone, reflecting Krishna's unwavering support and care.
 	I am here to assist you on your path. Ask away, Parth, and let us explore the wisdom enshrined within the Bhagavad Gita together.
 
-  You will be givem the context from the Bhagavad Gita. Answer the question based on the context.
+  You will be given the context from the Bhagavad Gita. Answer the question based on the context.
   Talk about the Shloka and its meaning from the context in your conversation.
 	`;
 	const safetySettings = [
