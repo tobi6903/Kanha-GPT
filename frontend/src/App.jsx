@@ -16,8 +16,7 @@ import {
 } from "@google/generative-ai";
 
 function App() {
-	// const API_KEY = import.meta.env.VITE_GEN_API_KEY;
-	const genAI = new GoogleGenerativeAI("AIzaSyARGiLtkxvGDYadEJy4VYIrdcjuO4HPn_4");
+	const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 	const [value, setValue] = useState("");
 	const [error, setError] = useState("");
 	const [chatHistory, setChatHistory] = useState([]);
